@@ -1,0 +1,51 @@
+p, a {
+  font-size: 11px; }
+
+.scoreview-top {
+  display: flex; }
+
+.scoreview-top-grid-left, .scoreview-top-grid-center, .scoreview-top-grid-right {
+  height: 500px;
+  margin-top: 5px;
+  border: 1px solid #060000;
+  width: 100%; }
+
+.scoreview-top-grid-left, .scoreview-top-grid-center {
+  border-right: none; }
+
+.single_data_content {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+p {
+  padding: 8px 20px 8px 20px;
+  background: #f7f7f7;
+  border: 1px solid orange;
+  border-radius: 50px; }
+
+.more_padding {
+  padding: 15px; }
+
+.scoreview-top-players {
+  margin-top: 60px; }
+  .scoreview-top-players ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .scoreview-top-players ul li {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 7px; }
+      .scoreview-top-players ul li div {
+        float: left;
+        margin-left: 5%; }
+
+.w3-light-grey {
+  width: 121px !important; }
+
+.w3-container {
+  margin-left: 0 !important; }
+
+/*# sourceMappingURL=scoreview-top.component.css.map */
